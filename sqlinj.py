@@ -65,8 +65,22 @@ def sqlInjPost(url, params):
         print(f"{Fore.LIGHTRED_EX}An error occurred: {e}")
 
 system("cls||clear")
-print(f"{Fore.LIGHTCYAN_EX}1-) For url\n2-) For post\nq-) Quit")
+
+print(r"""
+ _______  _______  _       _________ _       _________
+(  ____ \(  ___  )( \      \__   __/( (    /|\__    _/
+| (    \/| (   ) || (         ) (   |  \  ( |   )  (  
+| (_____ | |   | || |         | |   |   \ | |   |  |  
+(_____  )| |   | || |         | |   | (\ \) |   |  |  
+      ) || | /\| || |         | |   | | \   |   |  |  
+/\____) || (_\ \ || (____/\___) (___| )  \  ||\_)  )  
+\_______)(____\/_)(_______/\_______/|/    )_)(____/   
+                                          by:gupcoteles
+""", end="\n")
+
+print(f"{Fore.LIGHTCYAN_EX}1-) For url\n2-) For post\nq-) Quit\n")
 process = input(">")
+print("\n")
 
 try:
     if process == "1":
